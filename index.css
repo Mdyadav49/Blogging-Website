@@ -35,6 +35,12 @@ h1 {
     gap: 1.2rem;
     grid-template-columns: repeat(1, 1fr);
 }
+
+@media screen and (max-width:650px) {
+    .main_container{
+        max-width: 90vw;
+    }
+}
 @media (min-width:650px) {
     .main_container{
         grid-template-columns: repeat(2, 1fr);
